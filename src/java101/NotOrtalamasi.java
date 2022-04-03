@@ -32,7 +32,7 @@ public class NotOrtalamasi {
 		muz = input.nextInt();
 		
 		int toplam = mat + fiz + kim + tur + tar + muz;
-		double ortalama = toplam / 6;
+		double ortalama = toplam / 6.0;
 		
 		String durum = (ortalama >= 60) ? "Sýnýfý Geçtiniz." : "Sýnýfta Kaldýnýz.";
 		System.out.print("Ortalamaniz: ");
