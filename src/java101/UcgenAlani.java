@@ -1,8 +1,8 @@
 package java101;
 import java.util.Scanner;
 /*
-Üç kenar uzunluğu bilinen üçgenin alanını hesaplayan Java programı
-Formül :  u sayısı çevrenin yarısı ve a, b, c üçgenin kenar uzunlukları
+ÃœÃ§ kenar uzunluÄŸu bilinen Ã¼Ã§genin alanÄ±nÄ± hesaplayan Java programÄ±
+FormÃ¼l :  u sayÄ±sÄ± Ã§evrenin yarÄ±sÄ± ve a, b, c Ã¼Ã§genin kenar uzunluklarÄ±
 Alan = u * (u - a) * (u - b) * (u - c)
 */
 
@@ -16,11 +16,11 @@ public class UcgenAlani {
 		
 		int a, b, c;
 		
-		System.out.print("Birinci kenar uzunluğunu giriniz.");
+		System.out.print("Birinci kenar uzunluÄŸunu giriniz.");
 		a = input.nextInt();
-		System.out.print("İkinci kenar uzunluğunu giriniz.");
+		System.out.print("Ä°kinci kenar uzunluÄŸunu giriniz.");
 		b = input.nextInt();
-		System.out.print("Üçüncü kenar uzunluğunu giriniz.");
+		System.out.print("ÃœÃ§Ã¼ncÃ¼ kenar uzunluÄŸunu giriniz.");
 		c = input.nextInt();
 		
 		input.close();
@@ -28,7 +28,7 @@ public class UcgenAlani {
 		float u = (a + b + c) / 2f;
 		float alan = u * (u - a) * (u - b) * (u - c);
 		
-		System.out.println("Üçgenin Alanı: " + alan);
+		System.out.println("ÃœÃ§genin AlanÄ±: " + alan);
 	}
 
 }
