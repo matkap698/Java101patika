@@ -14,6 +14,8 @@ public class KDVTutari {
 		System.out.print("KDV'siz fiyatý giriniz: ");
 		int fiyat = input.nextInt();
 		
+		input.close();
+		
 		int kdv = (fiyat < 1000) ? 18 : 8;
 		double kdv_tutar = fiyat * kdv / 100;
 		double kdv_fiyat = fiyat + kdv_tutar;

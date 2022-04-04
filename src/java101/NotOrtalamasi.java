@@ -31,6 +31,8 @@ public class NotOrtalamasi {
 		System.out.print("Müzik Notunuzu Giriniz: ");
 		muz = input.nextInt();
 		
+		input.close();
+		
 		int toplam = mat + fiz + kim + tur + tar + muz;
 		double ortalama = toplam / 6.0;
 		
